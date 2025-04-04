@@ -37,7 +37,7 @@ import { useState } from "react";
  				<CreatePost />
  
  				{/* POSTS */}
- 				<Posts />
+ 				<Posts feedType={feedType} />
  			</div>
  		</>
  	);
